@@ -24,7 +24,7 @@ const getLocation = () => {
     console.log('oka');
 };
 const getWeather = async (latitude, longitude) => {
-    const apiKey = 'aiueo';
+    const apiKey = '';
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
 
     try {
